@@ -1,0 +1,125 @@
+export const profile = {
+  name: 'Shamnad',
+  title: 'Full Stack Developer',
+  tagline: 'Building beautiful, scalable web experiences',
+  bio: 'Passionate full-stack developer with expertise in modern web technologies. I love turning complex problems into elegant, user-friendly solutions.',
+  email: 'amshamnad08@gmail.com',
+  phone: '+91 77369 03317',
+  location: 'Kerala, India',
+  github: 'https://github.com/shamnad1122',
+  linkedin: 'https://linkedin.com/in/shamnad1122',
+  resume: '/files/Resume (1).pdf',
+}
+
+export const skills = [
+  { name: 'React', level: 90, color: '#06b6d4', icon: '⚛️' },
+  { name: 'JavaScript', level: 88, color: '#f59e0b', icon: '🟨' },
+  { name: 'Node.js', level: 82, color: '#10b981', icon: '🟢' },
+  { name: 'Python', level: 75, color: '#7c3aed', icon: '🐍' },
+  { name: 'TypeScript', level: 78, color: '#3b82f6', icon: '🔷' },
+  { name: 'MongoDB', level: 80, color: '#10b981', icon: '🍃' },
+  { name: 'PostgreSQL', level: 72, color: '#06b6d4', icon: '🐘' },
+  { name: 'Docker', level: 65, color: '#ec4899', icon: '🐳' },
+]
+
+export const projects = [
+  {
+    id: 1,
+    title: 'E-Commerce Platform',
+    description: 'A full-stack e-commerce app with real-time inventory, payment integration, and admin dashboard.',
+    tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    color: '#7c3aed',
+    gradient: 'linear-gradient(135deg, #7c3aed, #ec4899)',
+    github: '#',
+    live: '#',
+    emoji: '🛒',
+  },
+  {
+    id: 2,
+    title: 'AI Chat Application',
+    description: 'Real-time chat app powered by AI with sentiment analysis, smart replies, and multi-room support.',
+    tech: ['React', 'Socket.io', 'Python', 'OpenAI'],
+    color: '#06b6d4',
+    gradient: 'linear-gradient(135deg, #06b6d4, #3b82f6)',
+    github: '#',
+    live: '#',
+    emoji: '🤖',
+  },
+  {
+    id: 3,
+    title: 'Task Management System',
+    description: 'Collaborative project management tool with drag-and-drop, analytics, and team collaboration.',
+    tech: ['React', 'TypeScript', 'PostgreSQL', 'Redis'],
+    color: '#10b981',
+    gradient: 'linear-gradient(135deg, #10b981, #06b6d4)',
+    github: '#',
+    live: '#',
+    emoji: '📋',
+  },
+  {
+    id: 4,
+    title: 'Weather Dashboard',
+    description: 'Beautiful weather app with 7-day forecasts, interactive maps, and location-based alerts.',
+    tech: ['React', 'OpenWeather API', 'Chart.js'],
+    color: '#f97316',
+    gradient: 'linear-gradient(135deg, #f97316, #f59e0b)',
+    github: '#',
+    live: '#',
+    emoji: '🌤️',
+  },
+  {
+    id: 5,
+    title: 'Social Media Analytics',
+    description: 'Dashboard for tracking social media metrics with real-time data visualization and reports.',
+    tech: ['Vue.js', 'D3.js', 'Node.js', 'MySQL'],
+    color: '#ec4899',
+    gradient: 'linear-gradient(135deg, #ec4899, #f97316)',
+    github: '#',
+    live: '#',
+    emoji: '📊',
+  },
+  {
+    id: 6,
+    title: 'Portfolio CMS',
+    description: 'Headless CMS for managing portfolio content with markdown support and media management.',
+    tech: ['Next.js', 'Sanity', 'Tailwind', 'Vercel'],
+    color: '#7c3aed',
+    gradient: 'linear-gradient(135deg, #7c3aed, #06b6d4)',
+    github: '#',
+    live: '#',
+    emoji: '🎨',
+  },
+]
+
+export const experience = [
+  {
+    role: 'Full Stack Developer',
+    company: 'Virtuosoft Technologies Pvt Ltd',
+    period: '2025 – Present',
+    description: 'Developement of A GoldLoan Management System .',
+    color: '#7c3aed',
+  },
+  // {
+  //   role: 'Full Stack Developer',
+  //   company: 'Digital Agency Co.',
+  //   period: '2021 – 2023',
+  //   description: 'Built 15+ client projects using React and Node.js. Mentored junior developers.',
+  //   color: '#06b6d4',
+  // },
+  // {
+  //   role: 'Frontend Developer',
+  //   company: 'StartupXYZ',
+  //   period: '2020 – 2021',
+  //   description: 'Developed responsive UIs and integrated REST APIs. Reduced load time by 60%.',
+  //   color: '#10b981',
+  // },
+]
+
+export const education = [
+  {
+    degree: 'B.Tech in Electrical & Computer Engineering',
+    school: 'TKM College of Engineering Kollam',
+    period: '2022 – 2026',
+    color: '#ec4899',
+  },
+]

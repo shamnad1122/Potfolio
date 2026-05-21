@@ -1,0 +1,111 @@
+.timeline-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.timeline-heading {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timeline-icon { font-size: 1.3rem; }
+
+.timeline { position: relative; padding-left: 2rem; }
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0; bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #7c3aed, #ec4899, transparent);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -1.75rem;
+  top: 1.2rem;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  border: 2px solid #0d0d1a;
+  box-shadow: 0 0 10px currentColor;
+}
+
+.timeline-card {
+  background: #16213e;
+  border: 1px solid rgba(255,255,255,0.05);
+  border-left: 3px solid var(--color);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  transition: all 0.3s;
+}
+
+.timeline-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.timeline-period {
+  font-size: 0.75rem;
+  color: #64748b;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.timeline-role {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-company {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.timeline-desc {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #16213e;
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+  color: #94a3b8;
+  font-size: 0.875rem;
+  transition: all 0.2s;
+}
+
+.cert-item:hover {
+  border-color: rgba(124, 58, 237, 0.3);
+  color: #e2e8f0;
+  transform: translateX(5px);
+}
+
+.cert-star { font-size: 1rem; }
+
+@media (max-width: 768px) {
+  .timeline-grid { grid-template-columns: 1fr; }
+}
