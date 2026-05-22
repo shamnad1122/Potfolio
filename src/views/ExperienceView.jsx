@@ -54,7 +54,7 @@ export default function ExperienceView() {
               <h3 className="timeline-heading" style={{ marginTop: '2rem' }}>
                 <span className="timeline-icon">🏆</span> Achievements
               </h3>
-              {['Best Developer Award 2023', 'Open Source Contributor', 'Hackathon Winner 2022', 'AWS Certified Developer'].map((cert, i) => (
+              {['Open Source Contributor'].map((cert, i) => (
                 <div key={i} className="cert-item">
                   <span className="cert-star">⭐</span>
                   <span>{cert}</span>
