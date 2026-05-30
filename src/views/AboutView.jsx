@@ -32,9 +32,10 @@ export default function AboutView() {
                   alt="Profile"
                 />
               </div>
-              <div className="avatar-badge badge-react">⚛️ React</div>
-              <div className="avatar-badge badge-node">🟢 Node</div>
-              <div className="avatar-badge badge-db">🍃 MongoDB</div>
+              {/* <div className="avatar-badge badge-react">⚛️ React.js</div>
+              <div className="avatar-badge badge-python">🐍 Python</div>
+              <div className="avatar-badge badge-db">🔥 Firebase</div>
+              <div className="avatar-badge badge-node">🟢 Node.js</div> */}
             </div>
           </div>
 
@@ -44,7 +45,7 @@ export default function AboutView() {
             </h3>
             <p className="about-bio">{profile.bio}</p>
             <p className="about-bio">
-              I specialize in building end-to-end web applications — from pixel-perfect UIs to robust backend systems. 
+              I specialize in building end-to-end web applications — from pixel-perfect UIs to robust backend systems.
               When I'm not coding, I'm exploring new technologies and contributing to open source.
             </p>
 
