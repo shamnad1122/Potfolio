@@ -25,14 +25,14 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce app with real-time inventory, payment integration, and admin dashboard.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    color: '#7c3aed',
-    gradient: 'linear-gradient(135deg, #7c3aed, #ec4899)',
+    title: 'AI-Based Exam Malpractice Detection',
+    description: 'Real-time proctoring system that uses computer vision and machine learning to monitor examination halls, identify suspicious student behavior, and generate automated malpractice alerts.',
+    tech: ['Python', 'OpenCV', 'YOLO', 'TensorFlow'],
+    color: '#8b5cf6',
+    gradient: 'linear-gradient(135deg, #8b5cf6, #ec4899)',
     github: '#',
     live: '#',
-    emoji: '🛒',
+    emoji: '👁️',
   },
   {
     id: 2,
