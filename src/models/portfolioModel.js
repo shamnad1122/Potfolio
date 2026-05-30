@@ -52,7 +52,7 @@ export const projects = [
     tech: ['Java', 'Java Swing', 'MySQL', 'JDBC'],
     color: '#10b981',
     gradient: 'linear-gradient(135deg, #10b981, #14b8a6)',
-    github: '#',
+    github: 'https://github.com/shamnad1122/ToDoList',
     live: '#',
     emoji: '✅',
   },
