@@ -26,7 +26,11 @@ export default function AboutView() {
               <div className="avatar-ring ring-2" />
               <div className="avatar-ring ring-3" />
               <div className="avatar-inner">
-                <span className="avatar-emoji">👨‍💻</span>
+                <img
+                  className="avatar-photo"
+                  src="/assets/profile.jpg"
+                  alt="Profile"
+                />
               </div>
               <div className="avatar-badge badge-react">⚛️ React</div>
               <div className="avatar-badge badge-node">🟢 Node</div>
